@@ -9,3 +9,6 @@
     --color4: hsl(210, 4%, 67%); /* Grayish blue */
     --color5: hsl(0, 0%, 100%); /* White */
  }
+ body {
+    font-size: 18px;
+ }
