@@ -8,7 +8,39 @@
     --color3: hsl(232, 10%, 55%); /* Dark grayish blue */
     --color4: hsl(210, 4%, 67%); /* Grayish blue */
     --color5: hsl(0, 0%, 100%); /* White */
- }
- body {
+}
+body {
     font-size: 18px;
- }
+    margin: 0 auto;
+    width: 375px;
+    background: hsl(0, 0%, 70%);
+}
+header {
+    background: url(./images/mobile/image-header.jpg) bottom center / cover no-repeat;
+    height: 530px; /*Nearly full height of bg image*/
+   }
+nav {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   padding: 2rem;
+}
+.menu {
+   display: none; /*enable with JS on mobile*/
+}
+.hero {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 3rem
+}
+.hero > h1 {
+   font-family: 'Fraunces', serif;
+   text-transform: uppercase;
+   color: var(--color5);
+   font-weight: 900;
+   font-size: 38px;
+   text-align: center;
+   letter-spacing: 6px;
+   margin: 3rem 0 0 0;
+}
