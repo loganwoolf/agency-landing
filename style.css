@@ -11,6 +11,7 @@
 }
 body {
     font-size: 18px;
+    font-family: Barlow, sans-serif;
     margin: 0 auto;
     width: 375px;
     background: hsl(0, 0%, 70%);
@@ -20,18 +21,55 @@ header {
     height: 530px; /*Nearly full height of bg image*/
    }
 nav {
+   position: relative;
    display: flex;
    flex-direction: row;
    justify-content: space-between;
-   padding: 2rem;
+   padding: 2rem 25px;
 }
 .hamburger {
    height: 18px;
    width: 25px;
    object-fit: fill;
 }
-.menu {
+.menu-flyout {
+   position: absolute;
+   background: var(--color5);
+   width: 325px;
+   height: 300px; /*change*/
+   left: 25px;
+   top: 100px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   align-items: center;
+}
+.hidden {
    display: none; /*enable with JS on mobile*/
+}
+.leader {
+   position: absolute;
+   background: var(--color5);
+   height: 50px;
+   width: 50px;
+   top: -25px;
+   right: 0;
+   clip-path: polygon(100% 0%,0% 100%,100% 100%);
+}
+.menu-link {
+   text-decoration-line: none;
+   color: var(--color3);
+   font-size: 20px;
+}
+.menu-button {
+   text-decoration-line: none;
+   font-family: Fraunces, serif;
+   font-size: 16px;
+   color: black;
+   text-transform: uppercase;
+   background: rgb(251, 214, 1);
+   padding: 1rem 2rem;
+   border-radius: 100px;
 }
 .hero {
    display: flex;
