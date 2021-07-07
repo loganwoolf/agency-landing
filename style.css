@@ -264,3 +264,24 @@ footer {
 .footer-social img:hover {
 	filter: brightness(2000%)
 }
+
+
+@media screen and (min-width: 960px) {
+   body {
+      background: black;
+      width: unset;
+      max-width: 90rem;
+      margin: 0 0 0 auto; /*aligns page right*/
+   }
+   header {
+      background: url(./images/desktop/image-header.jpg) bottom center / cover no-repeat;
+      height: 50rem;
+   }
+   .nav-logo {
+      height: 2.25rem;
+   }
+
+
+
+
+}
