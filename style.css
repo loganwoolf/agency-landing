@@ -34,6 +34,9 @@ nav {
    justify-content: space-between;
    padding: 2rem 1.39rem;
 }
+.nav-logo {
+   height: 1.5rem;
+}
 .hamburger {
    height: 1.13rem;
    width: 1.56rem;
