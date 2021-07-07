@@ -152,8 +152,46 @@ nav {
    margin-bottom: 1em;
 }
 .service > p {
-   font-size: 15.5px;
+   font-size: 16px;
    opacity: 50%;
    line-height: 1.6em;
    margin-top: 0;
+}
+.testimonial-block {
+   text-align: center;
+   background: var(--color5);
+   margin: 0;
+   padding: 4rem 1.70rem 4rem;
+   color: var(--color1)
+}
+.testimonial-block > h2 {
+   font-size: 16px;
+   letter-spacing: 4px;
+   text-transform: uppercase;
+   margin: 0;
+   opacity: 40%;
+   padding-bottom: 4rem;
+}
+.client-avatar {
+   height: 70px;
+   border-radius: 50px;
+   margin-bottom: 0.5rem;
+}
+.testimonial {
+   line-height: 2rem;
+}
+.comment {
+   opacity: 80%;
+   margin-bottom: 2rem;
+}
+.client-name {
+   font-family: 'Fraunces', serif;
+   font-weight: 900;
+   margin-bottom: 0;
+}
+.client-title {
+   margin-top: 0;
+   font-size: 15px;
+   opacity: 50%;
+   margin-bottom: 4rem;
 }
