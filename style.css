@@ -245,8 +245,14 @@ footer {
 	opacity: 70%;
 	margin-bottom: 3rem;
 }
+.footer-links > a:hover {
+	color: var(--color5)
+}
 .footer-social {
 	display: flex;
 	flex-direction: row;
 	gap: 2rem;
+}
+.footer-social img:hover {
+	filter: brightness(2000%)
 }
