@@ -195,3 +195,12 @@ nav {
    opacity: 50%;
    margin-bottom: 4rem;
 }
+
+.image-gallery {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.image-gallery > img {
+	width: 50%;
+}
