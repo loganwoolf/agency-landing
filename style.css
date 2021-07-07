@@ -14,7 +14,7 @@ body {
     font-family: Barlow, sans-serif;
     margin: 0 auto;
     width: 375px;
-    background: hsl(0, 0%, 70%);
+    background: hsl(0, 0%, 90%);
 }
 h2 {
    font-family: 'Fraunces', serif;
@@ -107,13 +107,25 @@ nav {
 .benefit:nth-child(1) {
    background: var(--color5) url(./images/mobile/image-transform.jpg) top center/contain no-repeat;
 }
+.benefit:nth-child(1) a {
+	background: linear-gradient(to bottom, #FFFF 0%, #FFFF 60%,#ffd60255 60%, #ffd60255 100%);
+}
+.benefit:nth-child(1) a:hover {
+	background: linear-gradient(to bottom, #FFFF 0%, #FFFF 60%,#ffd602FF 60%, #ffd602FF 100%);
+}
 .benefit:nth-child(2) {
    background: var(--color5) url(./images/mobile/image-stand-out.jpg) top center/contain no-repeat;
+}
+.benefit:nth-child(2) a {
+	background: linear-gradient(to bottom, #FFFF 0%, #FFFF 60%,#ff716355 60%, #ff716355 100%);
+}
+.benefit:nth-child(2) a:hover {
+	background: linear-gradient(to bottom, #FFFF 0%, #FFFF 60%,#ff7163FF 60%, #ff7163FF 100%);
 }
 .benefit-text {
    display: flex;
    flex-direction: column;
-   /* align-items: center; */
+   align-items: center;
    text-align: center;
    padding: 22rem 1.70rem 4rem;
 }
@@ -125,12 +137,15 @@ nav {
 }
 .benefit-text > a {
    font-family: 'Fraunces', serif;
-   font-size: 14px;
+   font-size: 15px;
    font-weight: 900;
    text-transform: uppercase;
-   text-decoration-line: ;
+   text-decoration-line: none;
    letter-spacing: 1px;
    color: var(--color1);
+	
+	width: max-content;
+	padding: 0.3rem 0.5rem;
    /*decorate with linear gradient*/
 }
 
@@ -212,7 +227,6 @@ footer {
 	background: rgb(144, 212, 197);
 	gap: 2rem;
 	padding: 4rem 2rem 5rem;
-	margin-bottom: 20rem;
 }
 .footer-logo {
 	height: 32px;
