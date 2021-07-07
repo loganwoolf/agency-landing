@@ -10,42 +10,42 @@
     --color5: hsl(0, 0%, 100%); /* White */
 }
 body {
-    font-size: 18px;
+    font-size: 112.5%;
     font-family: Barlow, sans-serif;
     margin: 0 auto;
-    width: 375px;
+    width: 23.44rem;
     background: hsl(0, 0%, 90%);
 }
 h2 {
    font-family: 'Fraunces', serif;
-   font-size: 32px;
+   font-size: 2rem;
    font-weight: 900;
    color: var(--color1);
 
 }
 header {
-    background: url(./images/mobile/image-header.jpg) bottom center / cover no-repeat;
-    height: 530px; /*Nearly full height of bg image*/
+    background: url(./images/mobile/image-header.jpg) bottom center / contain no-repeat;
+    height: 33.5rem; /*Nearly full height of bg image*/
    }
 nav {
    position: relative;
    display: flex;
    flex-direction: row;
    justify-content: space-between;
-   padding: 2rem 25px;
+   padding: 2rem 1.39rem;
 }
 .hamburger {
-   height: 18px;
-   width: 25px;
+   height: 1.13rem;
+   width: 1.56rem;
    object-fit: fill;
 }
 .menu-flyout {
    position: absolute;
    background: var(--color5);
-   width: 325px;
-   height: 300px; /*change*/
-   left: 25px;
-   top: 100px;
+   width: 20.31rem;
+   height: 18.75rem; /*change*/
+   left: 1.56rem;
+   top: 6.25rem;
    display: flex;
    flex-direction: column;
    justify-content: space-evenly;
@@ -57,21 +57,21 @@ nav {
 .leader {
    position: absolute;
    background: var(--color5);
-   height: 50px;
-   width: 50px;
-   top: -25px;
+   height: 3.13rem;
+   width: 3.13rem;
+   top: -1.56rem;
    right: 0;
    clip-path: polygon(100% 0%,0% 100%,100% 100%);
 }
 .menu-link {
    text-decoration-line: none;
    color: var(--color3);
-   font-size: 20px;
+   font-size: 1.25rem;
 }
 .menu-button {
    text-decoration-line: none;
    font-family: Fraunces, serif;
-   font-size: 16px;
+   font-size: 1rem;
    color: black;
    text-transform: uppercase;
    background: rgb(251, 214, 1);
@@ -89,12 +89,14 @@ nav {
    text-transform: uppercase;
    color: var(--color5);
    font-weight: 900;
-   font-size: 38px;
+   font-size: 2.38rem;
    text-align: center;
-   letter-spacing: 6px;
+   letter-spacing: 0.38rem;
    margin: 3rem 0 0 0;
 }
-
+.hero > img {
+	height: 7.13rem;
+}
 .services {
    display: grid;
    grid-template-columns: auto;
@@ -131,17 +133,17 @@ nav {
 }
 .benefit-text > p {
    opacity: 50%;
-   line-height: 1.6em;
+   line-height: 1.6rem;
    margin-top: 0;
    padding-bottom: 1rem;
 }
 .benefit-text > a {
    font-family: 'Fraunces', serif;
-   font-size: 15px;
+   font-size: 0.94rem;
    font-weight: 900;
    text-transform: uppercase;
    text-decoration-line: none;
-   letter-spacing: 1px;
+   letter-spacing: 0.06rem;
    color: var(--color1);
 	
 	width: max-content;
@@ -161,13 +163,13 @@ nav {
    background: url(./images/mobile/image-photography.jpg) top center/cover no-repeat;
 }
 .service > h2 {
-   font-size: 28px;
+   font-size: 1.75rem;
    opacity: 80%;
    text-transform: capitalize;
-   margin-bottom: 1em;
+   margin-bottom: 1rem;
 }
 .service > p {
-   font-size: 16px;
+   font-size: 1rem;
    opacity: 50%;
    line-height: 1.6em;
    margin-top: 0;
@@ -180,15 +182,15 @@ nav {
    color: var(--color1)
 }
 .testimonial-block > h2 {
-   font-size: 16px;
-   letter-spacing: 4px;
+   font-size: 1rem;
+   letter-spacing: 0.25rem;
    text-transform: uppercase;
    margin: 0;
    opacity: 40%;
    padding-bottom: 4rem;
 }
 .client-avatar {
-   height: 70px;
+   height: 4.38rem;
    border-radius: 50px;
    margin-bottom: 0.5rem;
 }
@@ -206,7 +208,7 @@ nav {
 }
 .client-title {
    margin-top: 0;
-   font-size: 15px;
+   font-size: 0.94rem;
    opacity: 50%;
    margin-bottom: 4rem;
 }
@@ -229,7 +231,7 @@ footer {
 	padding: 4rem 2rem 5rem;
 }
 .footer-logo {
-	height: 32px;
+	height: 1.78rem;
 	filter: brightness(0) saturate(100%) invert(35%) sepia(54%) saturate(453%) hue-rotate(116deg) brightness(96%) contrast(89%);
 	padding-bottom: 1rem;
 }
@@ -252,6 +254,9 @@ footer {
 	display: flex;
 	flex-direction: row;
 	gap: 2rem;
+}
+.footer-social img {
+	height: 1.5rem;
 }
 .footer-social img:hover {
 	filter: brightness(2000%)
