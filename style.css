@@ -128,7 +128,7 @@ nav {
 }
 .services {
    display: grid;
-   grid-template-columns: auto;
+   grid-template-columns: auto; /* auto auto for desktop*/
 
 }
 .benefit {
@@ -323,9 +323,33 @@ footer {
       letter-spacing: 0.5rem;
       margin: 5rem 0 0 0;
    }
+   .services {
+      grid-template-columns: auto auto;
+   }
+   .benefit {
+      grid-column: span 2;
+      aspect-ratio: 24/10; /*Makes it perfect*/
 
+   }
+   .benefit-text {
+      text-align: left;
+      align-items: unset;
+      padding: unset;
+      max-width: 45ch;
+   }
+   .reverse {
+      align-self: flex-end;
+   }
+   .benefit:nth-child(1) {
+      background: var(--color5) url(./images/desktop/image-transform.jpg) right center/50% no-repeat;
+      text-align: left;
+   }
+   .benefit:nth-child(2) {
+      background: var(--color5) url(./images/desktop/image-stand-out.jpg) left center/50% no-repeat;
+      text-align: right;
 
-
+   }
+   
 
 
 }
