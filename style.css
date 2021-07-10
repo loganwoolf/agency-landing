@@ -388,7 +388,7 @@ footer {
    }
    .image-gallery > div {
       width: 25%;
-      aspect-ratio: 3/4;
+      aspect-ratio: 5/6;
       background-size: cover;
       background-position: center bottom;
    }
@@ -404,5 +404,11 @@ footer {
    #sugar {
       background: url(./images/desktop/image-gallery-sugarcubes.jpg)center bottom/ cover no-repeat;
    }
-
+   .footer-logo {
+      height: 2rem;
+   }
+   .footer-links {
+      justify-content: center;
+      gap: 3rem;
+   }
 }
