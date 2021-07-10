@@ -239,8 +239,21 @@ nav {
 	flex-direction: row;
 	flex-wrap: wrap;
 }
-.image-gallery > img {
+.image-gallery > div {
 	width: 50%;
+   aspect-ratio: 1/1;
+}
+#bottles {
+   background: url(./images/mobile/image-gallery-milkbottles.jpg) center/cover no-repeat;
+}
+#orange {
+   background: url(./images/mobile/image-gallery-orange.jpg) center/cover no-repeat;
+}
+#cone {
+   background: url(./images/mobile/image-gallery-cone.jpg) center/cover no-repeat;
+}
+#sugar {
+   background: url(./images/mobile/image-gallery-sugar-cubes.jpg) center/cover no-repeat;
 }
 footer {
 	display: flex;
