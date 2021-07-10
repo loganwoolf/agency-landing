@@ -1,7 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap');
-
-/* font-family: 'Fraunces', serif; */
-/* font-family: 'Barlow', sans-serif; */
  :root {
     --color1: hsl(212, 27%, 19%); /* Very dark desaturated blue */
     --color2: hsl(213, 9%, 39%); /* Very dark grayish blue */
@@ -22,7 +19,6 @@ h2 {
    font-size: 2rem;
    font-weight: 900;
    color: var(--color1);
-
 }
 header {
     background: url(./images/mobile/image-header.jpg) bottom center / contain no-repeat;
@@ -43,7 +39,6 @@ nav {
    flex-direction: row;
    align-items: center;
    gap: 1.5rem;
-
 }
 .bar-link {
    text-decoration-line: none;
@@ -129,7 +124,6 @@ nav {
 .services {
    display: grid;
    grid-template-columns: auto; /* auto auto for desktop*/
-
 }
 .benefit {
    display: flex;
@@ -179,7 +173,6 @@ nav {
 	padding: 0.3rem 0.5rem;
    /*decorate with linear gradient*/
 }
-
 .service {
    text-align: center;
    padding: 23rem 1.70rem 3rem;
@@ -241,7 +234,6 @@ nav {
    opacity: 50%;
    padding-bottom: 4rem;
 }
-
 .image-gallery {
 	display: flex;
 	flex-direction: row;
@@ -250,7 +242,6 @@ nav {
 .image-gallery > img {
 	width: 50%;
 }
-
 footer {
 	display: flex;
 	flex-direction: column;
@@ -345,19 +336,13 @@ footer {
       line-height: 1.8rem;
    }
    .reverse {
-      /* align-self: flex-end; */
       margin: auto 10% auto 57%;
    }
    .benefit:nth-child(1) {
       background: var(--color5) url(./images/desktop/image-transform.jpg) right center/50% no-repeat;
-      /* text-align: left; */
    }
    .benefit:nth-child(2) {
       background: var(--color5) url(./images/desktop/image-stand-out.jpg) left center/50% no-repeat;
-      /* text-align: right; */
-
-   }
-   .service {
    }
    .service:nth-child(3) {
       background: url(./images/desktop/image-graphic-design.jpg) top center/cover no-repeat;
