@@ -292,7 +292,7 @@ footer {
 }
 
 
-@media screen and (min-width: 60rem) {
+@media screen and (min-width: 65rem) {
    body {
       background: black;
       width: unset;
@@ -329,24 +329,32 @@ footer {
    .benefit {
       grid-column: span 2;
       aspect-ratio: 24/10; /*Makes it perfect*/
-
    }
    .benefit-text {
       text-align: left;
       align-items: unset;
       padding: unset;
       max-width: 45ch;
+      margin: auto 57% auto 10%;
+   }
+   .benefit-text h2 {
+      margin-top: 0;
+      font-size: 2.6rem;
+   }
+   .benefit-text p {
+      line-height: 1.8rem;
    }
    .reverse {
-      align-self: flex-end;
+      /* align-self: flex-end; */
+      margin: auto 10% auto 57%;
    }
    .benefit:nth-child(1) {
       background: var(--color5) url(./images/desktop/image-transform.jpg) right center/50% no-repeat;
-      text-align: left;
+      /* text-align: left; */
    }
    .benefit:nth-child(2) {
       background: var(--color5) url(./images/desktop/image-stand-out.jpg) left center/50% no-repeat;
-      text-align: right;
+      /* text-align: right; */
 
    }
    
