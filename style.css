@@ -277,9 +277,21 @@ footer {
       background: url(./images/desktop/image-header.jpg) bottom center / cover no-repeat;
       height: 50rem;
    }
+   nav {
+      padding: 3rem;
+    }
    .nav-logo {
       height: 2.25rem;
    }
+   .hero {
+      gap: 5rem;
+    }
+   .hero > h1 {
+      font-size: 3.5rem;
+      letter-spacing: 0.5rem;
+      margin: 5rem 0 0 0;
+   }
+
 
 
 
