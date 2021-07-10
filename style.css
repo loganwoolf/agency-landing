@@ -292,7 +292,7 @@ footer {
 }
 
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 60rem) {
    body {
       background: black;
       width: unset;
