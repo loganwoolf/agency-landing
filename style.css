@@ -386,6 +386,23 @@ footer {
       margin-top: 2.5rem;
       margin-bottom: 5rem;
    }
-
+   .image-gallery > div {
+      width: 25%;
+      aspect-ratio: 3/4;
+      background-size: cover;
+      background-position: center bottom;
+   }
+   #bottles {
+      background: url(./images/desktop/image-gallery-milkbottles.jpg)center bottom/ cover no-repeat;
+   }
+   #orange {
+      background: url(./images/desktop/image-gallery-orange.jpg)center bottom/ cover no-repeat;
+   }
+   #cone {
+      background: url(./images/desktop/image-gallery-cone.jpg)center bottom/ cover no-repeat;
+   }
+   #sugar {
+      background: url(./images/desktop/image-gallery-sugarcubes.jpg)center bottom/ cover no-repeat;
+   }
 
 }
