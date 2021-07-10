@@ -357,6 +357,19 @@ footer {
       /* text-align: right; */
 
    }
+   .service {
+   }
+   .service:nth-child(3) {
+      background: url(./images/desktop/image-graphic-design.jpg) top center/cover no-repeat;
+   }
+   .service:nth-child(4) {
+      background: url(./images/desktop/image-photography.jpg) top center/cover no-repeat;
+   }
+   .service > p {
+      max-width: 37ch;
+      margin-left: auto;
+      margin-right: auto;
+   }
    
 
 
