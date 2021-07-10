@@ -298,10 +298,9 @@ footer {
 
 @media screen and (min-width: 65rem) {
    body {
-      background: black;
       width: unset;
       max-width: 90rem;
-      margin: 0 0 0 auto; /*aligns page right*/
+      margin: 0 auto;
    }
    header {
       background: url(./images/desktop/image-header.jpg) bottom center / cover no-repeat;
